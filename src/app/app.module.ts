@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OwnIfDirective } from './own-if.directive';
+import { IntoCapitalCasePipe } from './into-capital-case.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OwnIfDirective,
+    IntoCapitalCasePipe
   ],
   imports: [
     BrowserModule,
